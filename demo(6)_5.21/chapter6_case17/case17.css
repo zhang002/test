@@ -1,0 +1,90 @@
+/*全局控制*/
+body{font-family: '微软雅黑';font-size: 12px;}
+/*重置浏览器默认样式*/
+body,input,select,textarea,form {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    background-color: transparent;/*背景透明*/
+}
+/*整体控制表单*/
+#list{
+	width: 743px;
+	margin: 50px auto;
+}
+/*整体控制日志标题及内容*/
+.content{
+	height: 418px;
+	padding-top: 35px;
+	background: url(../../image/8.jpg) no-repeat;
+}
+/*控制日志标题*/
+.title{
+	width: 739px;
+	height: 30px;
+	border-top: 2px dotted #83775e;
+	border-bottom: 2px dotted #666;
+	text-align: center;
+	font-size: 18px;
+}
+/*控制日志内容*/
+.txt{
+	width: 739px;s
+	height: 300px;
+	border-top: 2px dotted #83775e;
+	margin-top: 10px;
+	font-size: 24px;
+}
+/*控制日志分类及权限*/
+.choose{
+	height: 30px;
+	padding: 12px 0 0 5px;
+	background-color: #b6ac94;
+	font-weight: bold;
+}
+/*下拉菜单*/
+select{
+	width: 80px;
+	border: 1px solid #666;
+	background-color: #F5F5F5;
+}
+.choose1{
+	width: 100px;
+	margin-right: 20px;
+}
+
+/*控制三个button键*/
+.btn{
+	margin-top: 10px;
+}
+.btn1,.btn2,.btn3{
+	width: 100px;
+	height: 24px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+}
+.btn1{background-color: #b6ac94;}
+.btn3{margin-left: 425px;}
+
+
+
+
+/*1、textarea控件:
+	 <textarea name="" id="" cols="每行中的字符数" rows="显示的行数">
+			文本内容
+	 </textarea>
+
+2、select控件：
+	 | <select name="" id="">
+	 |	<option value="">选项一</option>
+	|1|	<option value="">选项二</option>
+	 |	<option value="">选项三</option>
+	 | </select>
+	-------------------------------------------------------------
+	 | <select multiple="multiple" size="4"> 设置多选和可见选项数
+	 |  multiple：按住Ctrl键的同时选择多项
+	|2| size:下拉菜单可见选项数
+	 | <option selected="selected" >选项</option>
+	 | 	selected="selected" ：当前项为默认选项
+3、

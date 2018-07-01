@@ -1,0 +1,73 @@
+body{
+	font-size: 12px;
+	font-family: '微软雅黑';
+}
+body,h2,form,img,input,select,textarea{
+	padding: 0;margin: 0;list-style: none; border: none;
+}
+.all{
+	width: 1024px;
+	height: 603px;
+	margin:0 auto;
+	background: #168833;
+}
+.list{
+	width: 685px;
+	padding:50px 0 0 340px;
+}
+p{
+	margin-top: 20px;
+}
+h2{
+	font-size: 38px;
+	color:#dcf5fa;
+	margin-bottom: 60px;
+	padding-left: 50px;
+}
+.txt,.age{
+	width: 360px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 40px;
+	color: black;
+}
+.txt{background: #fff 10px center;}
+.age{background: #fff 10px center;}
+
+.choose{
+	width: 390px;
+	height: 25px;
+	line-height: 25px;
+	background-color: #fff;
+	padding: 5px 0 0 10px;
+}
+.money,.course{
+	width: 190px;
+	height: 25px;
+	padding-left: 10px;
+}
+.money{color: black;}
+.money_box span{
+	font-size: 19px;
+	font-weight: bold;
+	color: #fff;
+}
+.message{
+	width: 390px;
+	height: 80px;
+	padding: 5px 0 0 10px;
+	font-size: 12px;
+	color: black;
+}
+.btn{
+	width: 390px;
+	height: 30px;
+	background-color: #eb6854;
+	padding: 5px 0 0 10px;
+	color: #fff;
+	font-weight: bold;
+}
+label{
+	display: inline-block;
+	width: 90px;
+}

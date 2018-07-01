@@ -1,0 +1,61 @@
+body{
+	font-size: 12px;
+	font-family: '微软雅黑';
+}
+body,h2,form,img,input,select,textarea{
+	padding: 0;margin: 0;list-style: none; border: none;
+}
+.all{
+	width: 800px;
+	height: 500px;
+	margin:0 auto;
+	background: #168833;
+	margin-top: 30px;
+	padding-top: 1px;
+}
+h2{
+	width: 680px;
+	height: 50px;
+	background: #2F2E5A;
+	font-size: 38px;
+	font-family: '隶书';
+	color:#dcf5fa;
+	text-align: center;
+	margin: 60px 60px 0 60px;
+}
+.list{
+	width: 670px;
+	margin:5px 60px 0 60px;
+	border: 5px solid #DACECE;
+	background: #168833;
+}
+h4{
+	width: 620px;
+	height: 20px;
+	font-size: 20px;
+	font-family: '隶书';
+	color:#303438;
+	margin-top: 0;
+	padding-left: 50px;
+	background: #CA9BB9;	
+}
+
+.txt{
+	width: 360px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 40px;
+	margin:10px 160px 0 140px;
+	color: #ccc;
+	background: #fff 10px center;
+}
+.btn{
+	width: 390px;
+	height: 30px;
+	text-align: center;
+	background-color: #eb6854;
+	margin:10px 160px 0 140px;
+	padding: 5px 0 0 10px;
+	color: #fff;
+	font-weight: bold;
+}

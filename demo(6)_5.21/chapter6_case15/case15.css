@@ -1,0 +1,42 @@
+/*重置浏览器样式*/
+body,form,input { margin: 0; padding: 0;   border: none;}			
+/*整体控制表单*/
+.list{
+	width: 500px;
+	height: 280px;
+	background: url(../../image/8.jpg) no-repeat;
+	margin: 50px auto;
+	padding-top: 70px;
+}
+
+input{
+	display: block;
+	width: 290px;
+	height: 34px;
+	background-color: #11131f;
+	border: 2px solid #76265F;
+	margin: 25PX auto;
+	color: #fff;
+	padding-left: 10px;
+}
+/*单独控制登录按钮*/
+.btn{
+	width: 302px;
+	height: 34px;
+	background: url(../../image/13.jpg) repeat-x;
+	border: none;
+	color: #ccc;
+	font-family: '微软雅黑';
+}
+
+
+
+/*1、创建表单
+	<form action="url地址" method="提交方式" name="表单名称">
+		各种表单控件
+	</form>
+		<form action="form_actin.asp"></form>传送到数据库.asp
+		<form action=mailto:htmlclass@163.com></form> 传送到邮箱
+	    <method="post">post（保密性好，传输数据大） 或者 get（默认值，保密性差，传输数据小）
+	    <name="表单名称">name用于指定表单名称，区分一个页面中多个表单*/
+

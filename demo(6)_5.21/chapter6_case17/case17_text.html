@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>select控件</title>
+</head>
+<body>
+	<form action="#" method="post">
+	 城区：<br>
+		<select >
+			<optgroup label="北京">
+				<option >东城区</option>
+				<option >西城区</option>
+				<option >朝阳区</option>
+				<option >海淀区</option>
+			</optgroup>
+			
+			<optgroup label="上海">
+				<option >浦东新区</option>
+				<option >徐汇区</option>
+				<option >虹口区</option>
+			</optgroup>
+		</select> <br><br>
+
+	  特长(单选):<br>
+	  	<select>
+			<option >唱歌</option>
+			<option selected="selected" >画画</option>		<!-- 设置默认选中项 -->
+			<option >跳舞</option>
+		</select> <br><br>
+
+	爱好(多选)：<br>	
+		<select multiple="multiple" size="4">				<!-- 设置多选和可见选项数 -->
+			<option >读书</option>
+			<option selected="selected" >写代码</option>	<!-- 设置默认选中项 -->
+			<option >旅行</option>
+			<option selected="selected" >听音乐</option>	<!-- 设置默认选中项 -->
+			<option >踢球</option>
+		</select> <br><br>
+
+	<input type="submit" value="提交">
+	</form>
+</body>
+</html>

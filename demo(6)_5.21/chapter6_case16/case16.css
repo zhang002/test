@@ -1,0 +1,32 @@
+/*重置浏览器默认样式*/
+body,p,input,label,form{margin: 0;padding: 0;}
+/*整体控制界面*/
+#list{		/*整体控制表单*/
+	width: 650px;
+	height: 474px;
+	background: url(../../image/9.jpg) no-repeat;
+	font-size: 14px;
+	padding-top: 110px 0 0 110px;
+	font-family: '微软雅黑';
+	color: #7b6c55;
+}
+p{		/*控制选择题题目*/
+	width: 600px;
+	height:37px;
+	padding-left:50px;
+	line-height:23px;
+	font-size:16px;
+}
+/*控制选择题题目的背景图像*/
+.title1{background: url(../../image/12.jpg) no-repeat left center;}
+.title2{background: url(../../image/11.jpg) no-repeat left center;}
+/*控制选择题选项*/
+label{
+	display: block;
+	width: 210px;
+	padding:18px 0 0 50px;
+}
+/*拉开题目间的间距*/
+.one{
+	padding-bottom: 20px;
+}

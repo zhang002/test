@@ -1,4 +1,5 @@
 window.onload=function(){
+    
 	//实现下拉菜单
 	var test = document.getElementById("test");
 	var list = document.getElementById("list");

@@ -1,9 +1,4 @@
 window.onload=function(){
-	// 悬浮框
-        var oImg = document.getElementById('img1');
-        var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
-        startMove(oImg, { top: parseInt((document.documentElement.clientHeight - oImg.offsetHeight) / 2) + scrollTop });
-    
 	//实现下拉菜单
 	var test = document.getElementById("test");
 	var list = document.getElementById("list");

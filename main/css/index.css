@@ -2,8 +2,19 @@
 body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img{margin:0; padding:0; border:0; list-style:none;}
 /*全局控制*/
 body{font-family:Arial, Helvetica, sans-serif,"宋体"; font-size:12px;}
-a:link,a:visited{color:#222;text-decoration:none;}     /*未点击和点击后的样式*/                                           
-a:hover{color:#FD4913;}                                     /*鼠标移上时的样式*/       
+a:link,{color:#222;}     /*未点击和点击后的样式*/                                           
+a:hover{color:#FD4913;}
+                                   /*鼠标移上时的样式*/      
+/*floating */
+li{list-style: none;}
+    #img1 {
+        width: 60px;
+        height: 260px;
+        position: fixed;
+        background-color: write;
+        right: 0;
+        bottom: 0;
+    }
 /*top*/
 .top{
  	margin:5px auto 0px auto;
@@ -697,6 +708,7 @@ a:hover{color:#FD4913;}                                     /*鼠标移上时的
 	margin:15px 0px 0px 0px;
 	line-height: 20px;
 }
+
 /*line2/
 /*footer*/
 .footer{
@@ -740,35 +752,191 @@ a:hover{color:#FD4913;}                                     /*鼠标移上时的
 	padding-top:20px;
 }
 /*footer*/
-.all{width:1208px;height:1200px;background:#0FF;}
-.box{width:1208px;height:200px;}
-.box1{width::1208px;height:25px;}
-a:link,a:visited{color:#F03;text-decoration:none;}
-a:hover{color:#36F;}
-.box2{width:1208px;height:25px;}
-.box3{width:1208px;height:150px;}
-.box4{width:150px;height:150px;float:left;}
-.box5{width:1000px;height:200px;float:left;}
-.box6{width:1208px;height:150px;}
-.box7{width:150px;height:150px;float:right;}
-.box8{width:220px;height:150px;float:right;}
-.box9{width:1208px;height:75px;}
-.box10{width:1208px;height:500px;}
-.box11{width:1208px;height:25px;}
-.box12{width:50px;height:25px;float:left;}
-.box13{width:1100px;height:25px;float:left;font-size:18px;}
-.box14{width:1208px;height:50px;}
-.box15{width:50px;height:50px;float:left;}
-.box16{width:1100px;height:50px;float:left;font-size:18px;}
-.box17{width:1208px;height:50px;}
-.box18{width:50px;height:50px;float:left;}
-.box19{width:1100px;height:50px;float:left;font-size:18px;}
-.box20{width:1208px;height:75px;}
-.box21{width:50px;height:75px;float:left;}
-.box22{width:1100px;height:75px;float:left;font-size:18px;}
-.box23{width:1208px;height:100px;}
-.box24{width:50px;height:100px;float:left;}
-.box25{width:1100px;height:100px;float:left;font-size:18px;}
-.box26{width:1208px;height:100px;}
-.box27{width:50px;height:100px;float:left;}
-.box28{width:1100px;height:100px;float:left;font-size:18px;}
+.all {
+    width: 1208px;
+    height: 1200px;
+    background: #0FF;
+}
+
+.box {
+    width: 1208px;
+    height: 200px;
+}
+
+.box1 {
+    width: :1208px;
+    height: 25px;
+}
+
+a:link{
+    color: #F03;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #36F;
+}
+.img_ti:hover{
+	width:100px;
+	height:100px;
+}
+.img:hover {
+	width:140px;
+	height:180px;
+}
+.box2 {
+    width: 1208px;
+    height: 25px;
+}
+
+.box3 {
+    width: 1208px;
+    height: 150px;
+}
+
+.box4 {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.box5 {
+    width: 1000px;
+    height: 200px;
+    float: left;
+}
+
+.box6 {
+    width: 1208px;
+    height: 150px;
+}
+
+.box7 {
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+.box8 {
+    width: 220px;
+    height: 150px;
+    float: right;
+}
+
+.box9 {
+    width: 1208px;
+    height: 75px;
+}
+
+.box10 {
+    width: 1208px;
+    height: 500px;
+}
+
+.box11 {
+    width: 1208px;
+    height: 25px;
+}
+
+.box12 {
+    width: 50px;
+    height: 25px;
+    float: left;
+}
+
+.box13 {
+    width: 1100px;
+    height: 25px;
+    float: left;
+    font-size: 18px;
+}
+
+.box14 {
+    width: 1208px;
+    height: 50px;
+}
+
+.box15 {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.box16 {
+    width: 1100px;
+    height: 50px;
+    float: left;
+    font-size: 18px;
+}
+
+.box17 {
+    width: 1208px;
+    height: 50px;
+}
+
+.box18 {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.box19 {
+    width: 1100px;
+    height: 50px;
+    float: left;
+    font-size: 18px;
+}
+
+.box20 {
+    width: 1208px;
+    height: 75px;
+}
+
+.box21 {
+    width: 50px;
+    height: 75px;
+    float: left;
+}
+
+.box22 {
+    width: 1100px;
+    height: 75px;
+    float: left;
+    font-size: 18px;
+}
+
+.box23 {
+    width: 1208px;
+    height: 100px;
+}
+
+.box24 {
+    width: 50px;
+    height: 100px;
+    float: left;
+}
+
+.box25 {
+    width: 1100px;
+    height: 100px;
+    float: left;
+    font-size: 18px;
+}
+
+.box26 {
+    width: 1208px;
+    height: 100px;
+}
+
+.box27 {
+    width: 50px;
+    height: 100px;
+    float: left;
+}
+
+.box28 {
+    width: 1100px;
+    height: 100px;
+    float: left;
+    font-size: 18px;
+}

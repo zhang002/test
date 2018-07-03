@@ -2,7 +2,7 @@
 body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img{margin:0; padding:0; border:0; list-style:none;}
 /*全局控制*/
 body{font-family:Arial, Helvetica, sans-serif,"宋体"; font-size:12px;}
-a:link,{color:#222;}     /*未点击和点击后的样式*/                                           
+a:link,visited{color:#222;}     /*未点击和点击后的样式*/                                           
 a:hover{color:#FD4913;}
                                    /*鼠标移上时的样式*/      
 /*floating */
@@ -15,6 +15,20 @@ li{list-style: none;}
         right: 0;
         bottom: 0;
     }
+   
+    .cs{
+            width:200%;
+    	    position:absolute;
+            right:65px; 
+            top:50px;
+            display: none;
+            opacity: 0;
+            display: block;
+        }
+       .cent:hover .cs{ 
+            opacity: 1;
+           
+        }
 /*top*/
 .top{
  	margin:5px auto 0px auto;
@@ -768,7 +782,7 @@ li{list-style: none;}
     height: 25px;
 }
 
-a:link{
+a:link,a:visited{
     color: #F03;
     text-decoration: none;
 }

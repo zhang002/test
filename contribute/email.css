@@ -203,6 +203,10 @@ body{
 	margin: auto;
 	background: #C9BEBE;
 }
+.all .myset ul{
+	width: 110%;
+	text-align:center;
+}
 .all .myset ul li{
 	margin:5px -3px 0px 2px;
 	display: inline-block;
@@ -211,7 +215,7 @@ body{
 	width: 100px;
 	height: 100px;
 	position: absolute;
-	left: 44%;
+	left: 45%;
 	margin-bottom: 100px;
 	opacity: 0;
 }

@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.pub{
+    width: 1200px;
+    background: #fff;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+body{
+    background: #FBDCA0;
+}
+.logo{
+    text-align: center;
+    position: relative;
+}
+.logo span{
+    position: absolute;
+    right:35px;
+	top:5px;
+    color: black;
+}
+.logo span em {
+	font-weight:bold;
+}
+.logo img{
+    width: 120px;
+}
+.nav{
+    width: 100%;
+    background: #8B5E3B;
+    height: 50px;
+}
+.nav .nav_text ul li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.nav ul li a{
+    height: 50px;
+    line-height: 50px;
+    color: black;
+	color:#fff;
+}
+.intr .intr_text{
+	padding:20px 40px;
+}
+.intr .intr_text h2{
+    text-align: center;
+}
+.intr .intr_text p{
+    color: #050505;
+    line-height:40px;
+}
+.plan h2{
+    padding-top: 100px;
+    text-align: center;
+}
+.plan .plan_pic ul li{
+    margin:40px 100px;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.plan .plan_pic ul li img{
+    width: 100%;
+    height: 100%;
+}
+.tit {
+	padding-top:40px;
+}
+.tit.a1 {
+	padding-top:0;
+}
+.tit h2{
+	padding:20px 0;
+	text-align:center;
+	position:relative;
+	margin-bottom:40px;
+}
+.banner{ padding:20px}
+.tit h2:after {
+    content: "";
+	position:absolute;
+	width:50px;
+	height:4px;
+	border-radius:4px;
+	bottom:0;
+	left:50%;
+	margin-left:-25px;
+	background:#09F;
+}
+.cop{
+    text-align: center;
+	color:#fff;
+	background:#8B5E3B;
+	padding:15px 0;
+}
+.cen{
+    width: 800px;
+    margin:  0 auto;
+}
+.cen p {
+	margin-top:10px;
+	line-height:40px;
+}
+.cen p span{
+	display:block;
+	font-size:16px;
+}
+.cen input{
+    width: 100%;
+	border:1px solid #eee;
+    outline:none;
+	line-height:40px;
+	padding:0 20px;
+	box-sizing:border-box;
+}
+.cen textarea {
+	resize:none;
+	width: 100%;
+	border:1px solid #eee;
+    outline:none;
+	line-height:40px;
+	padding:20px;
+	height:200px;
+	box-sizing:border-box;
+}
+.cen .btn {
+	    background: #8B5E3B;
+
+    height: 40px;
+    color: #fff;
+    border: none;
+    padding: 0 60px;
+	display:block;
+	margin:20px auto 0;
+}
+.inp{
+	padding-bottom:40px;
+}
+.pub .pice{
+    float: left;
+    width: 30%;
+}
+.pub .pice h2{
+    margin: 50px 0;
+    text-align: center;
+}
+.pub .pice ul li{
+    line-height: 40px;
+    text-align: center;
+}
+.comm{
+    float: left;
+    width: 70%;
+}
+.comm ul li{
+    margin: 50px 0;
+    width: 100%;
+}
+.pub .comm .left{
+    float: left;
+	margin-right:20px;
+}
+.pub .comm .right{
+    float:left;
+    width:70%;
+}
+.comm .right p{
+    margin: 20px 0;
+    color:#3C3C3C;
+}
+.comm .right em {
+	color:#F00;
+	font-size:18px;
+	font-weight:bold;
+}
+.comm .right p span{
+   color:#6C6C6C;
+}
+.pub .comm .left img {
+    width: 170px;
+    height: 170px;
+	overflow:hidden;
+	object-fit:cover;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.pub .comm .left img:hover {
+	transform:scale(1.1);-webkit-transform:scale(1.1);  /*兼容-webkit-引擎浏览器*/-moz-transform:scale(1.1); 	
+}
+.comm ul li a{
+    color: black;
+}
+.popup {
+	position:fixed;
+	top:50%;
+	left:50%;
+	width:400px;
+	height:170px;
+	background:#fff;
+	text-align:center;
+	z-index:9;
+	margin-left:-200px;
+	margin-top:-85px;
+	border-radius:5px;
+}
+.popup h3 {
+	height:50px;
+	line-height:50px;
+}
+.popup .btn {
+	background:#8B5E3B;
+	margin-top:20px;
+	height:40px;
+	border-radius:5px;
+	color:#fff;
+	border:none;
+	padding:0 20px;
+}
+.popup .text {
+	height:40px;
+	margin-top:10px;
+	text-align:center;
+	font-size:16px;
+	line-height:40px;
+	display:block;
+	margin:0 auto;
+	width:300px;
+}
+.popup_bg {
+	background:rgba(0,0,0,0.5);
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+	
+	.g1 {
+    float: left;
+    width: 50%;
+}.goumai {
+    background: #CC9933;
+    color: #fff;
+    padding: 10px 45px;
+    font-size: 18px;
+}.g2 {
+    float: left;
+    width: 42%;
+    margin-left: 5%;
+}
+.mar{ margin:0 100px}
+
+
+.login{width: 1060px; height: auto; margin:0px auto; padding:30px 0}
+.login-left{ float:left; width:650px}
+.login .logoin-right{width: 360px; float:right; height: 510px; margin-bottom:50px; padding:27px; box-sizing: border-box; border: 1px solid #ddd; box-shadow: 0 0 15px #ccc;}
+.login .logoin-right p{ display: flex; justify-content: space-between; }
+.login .logoin-right p span{ color: #ff9348;}
+.login .logoin-right dl dt{ padding: 15px 0 8px; }
+.login .logoin-right dl dd{ position: relative; margin:0 }
+.login .logoin-right dl dd input{width: 100%; height:35px; border: 1px solid #d8d8d8; text-indent: 10px; }
+.login .logoin-right dd span{ position: absolute; right:10px; top:10px; cursor: pointer; }
+.login .logoin-right button{width: 100%; height: 44px; margin: 15px 0; background:#996633; border:none; text-align: center; color: #fff; font-size: 15px;}
+
+.login .logoin-right .pw{ text-align: right; }
